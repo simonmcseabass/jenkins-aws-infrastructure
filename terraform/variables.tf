@@ -16,7 +16,7 @@ variable "environment" {
 variable "ec2_instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t2.micro" # Free tier eligible
+  default     = "t3.micro" # Free tier eligible
 }
 variable "ec2_ami" {
   description = "AMI ID for EC2 instance (Amazon Linux 2023)"
